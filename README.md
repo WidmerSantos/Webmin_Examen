@@ -20,11 +20,21 @@
 
 > En esta sección se incluirán capturas de pantalla del proceso de configuración y administración utilizando Webmin, junto con una explicación detallada de cada paso ejecutado.
 
-Ejemplos de lo que puedes incluir más adelante:
-- Instalación y configuración inicial de Webmin.
-- Gestión de usuarios y grupos.
-- Configuración de servicios del sistema (SSH, Firewall, Cron, etc.).
-- Administración de actualizaciones y paquetes.
+# COMANDOS A UTILIZAR PARA MODIFICAR VARIABLES DE ENTORNO   
+## 1. Crear una variable nueva
+>echo -e "APP_NAME=MiProyectoWeb\nAPP_ENV=local\nAPP_DEBUG=true" > /var/www/html/.env
+## 2. Verificar que se creó:
+>cat /var/www/html/.env
+## 3. Contenido a visualizar:
+>APP_NAME=MiProyectoWeb
+APP_ENV=local
+APP_DEBUG=true
+
+## Si queremos modificarlo despues:
+usando sed por ejemplo:
+>sed -i 's/^APP_NAME=.*/APP_NAME=NuevoNombre/' /var/www/html/.env
+
+
 
 *(Capturas y explicaciones en desarrollo...)*
 

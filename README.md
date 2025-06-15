@@ -1,4 +1,4 @@
-# ![UMG Logo](https://www.umg.edu.gt/sites/default/files/logoUMG_0.png)
+# ![UMG Logo](img/umg.png)
 
 ## Seminario de Administración de Sistemas  
 **Clase:** Sistemas Operativos 1  

@@ -1,4 +1,7 @@
-# ![UMG Logo](Imagen/Umg.png)
+
+<p align="center">
+  <img src="Img/Umg.png" alt="UMG Logo" width="200"/>
+</p>
 
 ## Seminario de Administración de Sistemas  
 **Clase:** Sistemas Operativos 1  

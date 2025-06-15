@@ -1,4 +1,4 @@
-# ![UMG Logo](img/umg.png)
+# ![UMG Logo](Imagen/Umg.png)
 
 ## Seminario de Administración de Sistemas  
 **Clase:** Sistemas Operativos 1  
